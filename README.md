@@ -1,2 +1,3 @@
-# AT-FE-Training-Summer-2018-PhamThePhuc
-Phần bài tập Front Ent
+Họ và tên: Phạm Thế Phúc.
+Tuổi: 22.
+Team: Java.
