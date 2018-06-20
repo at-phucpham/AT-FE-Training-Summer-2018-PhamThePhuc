@@ -1,15 +1,12 @@
-.container {
-  height: 46vw;
-  width: 70vw;
-  margin: 0vw auto;
-  background-color: #000000 ;
-  border-top: 0.1vw solid #A4A4A4;
+body {
+  padding: 0;
+  margin: 0;
 }
-.contain-9-box {
+.contain {
   height: 46vw;
   width: 70vw;
+  margin: 0 auto;
   position: relative;
-  border-bottom-left-radius: 0.5vw;
   background-color: #00FFFF;
   font-size: 2.5vw;
   font-weight: 500;
@@ -25,28 +22,23 @@
   text-align: center;
   background-color: #FF0000;
   border-radius: 50%;
-  top: 0vw;
-  left: 0vw;
 }
 #box2 {
   border: 0.1vw solid #FF0000;
   background-color: #FBFF00;
   border-radius: 25%;
-  top: 0vw;
   left: 33vw;
   text-align: right;
 }
 #box3 {
   text-align: left;
   background-color: #3700FF;
-  top: 0vw;
-  right: 0vw;
+  right: 0;
   font-size: 3vw;
 }
 #box4 {
   text-align: right;
   background-color: #008700;
-  left: 0vw;
   top: 21vw;
   border-right: 0.5vw solid #3700FF;
 }
@@ -63,36 +55,30 @@
   text-align: left;
   background-color: #8D0083;
   top: 21vw;
-  right: 0vw;
+  right: 0;
 }
 #box7 {
   text-align: right;
-  left: 0vw;
-  bottom: 0vw;
+  bottom: 0;
   color: #008700;
 }
 #box8 {
   text-align: left;
   left: 33vw;
-  bottom: 0vw;
+  bottom: 0;
   background-color: #000000;
   color: #FFFFFF;
   margin-bottom: 2vw;
 }
 #box9 {
   text-align: center;
-  height: 8vw;
-  width: 4vw;
-  right: 0vw;
-  bottom: 0vw;
-  color: #FF0000;
-  z-index: 1;
-}
-#box-support {
-  right: 0vw;
-  bottom: 0vw;
+  right: 0;
+  bottom: 0;
   background-color: #7D7D7D;
-  z-index: 0;
+}
+#special {
+  transform: translate(0,-50%);
+  color: #FF0000;
 }
 span {
   display: table-cell;
