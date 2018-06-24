@@ -273,11 +273,11 @@ body {
 }
 @media only screen and (max-width: 767px) {
   .container {
-    margin: 0 5%;
+    margin: 0 3%;
   }
   .menu-item {
     font-size: 11px;
-    padding: 15px;
+    padding: 15px 10px;
   }
   .service-item {
     width: 50%;
@@ -290,6 +290,10 @@ body {
   }
   .content {
     width: 100%;
+  }
+  .menu-item {
+    font-size: 11px;
+    padding: 10px 8px;
   }
   .info {
     width: 80%;
