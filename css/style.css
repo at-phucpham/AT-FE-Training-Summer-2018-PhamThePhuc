@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration-style: none;
+  color: white;
+}
+table,
+td,
+th{
+  text-align: center;
+  border: 1px solid #80E81F;
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px auto 0;
+}
+h1 {
+  color: #80E81F;
+}
+.page-main {
+  padding: 20px 0;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.btn {
+  display: block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all .5s;
+}
+.btn-add {
+  margin: 10px auto;
+  border: #80E81F solid 1px;
+  background-color: #ffffff;
+  color: #80E81F;
+}
+.btn-add:hover {
+  background-color: #80E81F;
+  color: #ffffff;
+}
+.btn-add:disabled {
+  background-color:#7a7777;
+  border: #7a7777 solid 1px;
+  color: #ffffff;
+}
+.btn-remove {
+  padding: 2px 5px;
+  border: #ff0000 solid 1px;
+  background-color: #ffffff;
+  color: #ff0000;
+  margin: 0 auto;
+}
+.btn-remove:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #80E81F;
+}
+.header-logo {
+  height: 50px;
+  float: left
+}
+.header-logo img {
+  height: 100%;
+}
+.shopping-cart {
+  padding: 10px;
+  float: right;
+  position: relative;
+  height: 50px;
+}
+.shopping-cart img {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#counter {
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 10px;
+  background-color: #ff0000;
+  border-radius: 25%;
+  color: #ffffff;
+  text-align: center;
+}
+.product-item {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.product-item img {
+  margin: 0 10%;
+  width: 80%;
+}
+.product-item h4 {
+  padding: 10px;
+  text-align: center;
+}
+.product-item i {
+  display: block;
+  padding: 0 10px 15px;
+  text-align: center;
+}
+.block-item {
+  border: 1px solid #b3b3b3;
+  height: 320px;
+  padding-bottom: 10px;
+}
+#table-body img {
+  width: 60px;
+}
+.page-footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: #80E81F;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
